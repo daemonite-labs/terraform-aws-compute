@@ -1,3 +1,6 @@
+# Make files
+.make
+
 # Local .terraform directories
 **/.terraform/*
 
