@@ -8,7 +8,6 @@ locals {
 
   tags = {
     Name       = local.name
-    Example    = "complete"
     Repository = "github.com/daemonite-labs/terraform-aws-compute"
   }
 }
