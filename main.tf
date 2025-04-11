@@ -1,5 +1,5 @@
 module "ec2_bastion" {
-  count = var.ec2_bastion ? 1 : 0
+  count = var.ec2_bastion != null ? 1 : 0
 
   source = "./modules/ec2-bastion"
 
