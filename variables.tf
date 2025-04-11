@@ -7,5 +7,5 @@ variable "ec2_bastion" {
     subnet_id         = string
     test_network_cidr = optional(list(string), ["10.0.0.0/8", "172.16.0.0/12", "192.168.0.0/16"])
   })
-  default = {}
+  default = null
 }
