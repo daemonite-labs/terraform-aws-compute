@@ -1,5 +1,4 @@
 ---
-
 repository:
   name: terraform-aws-compute
   description: Terraform module to create AWS compute resources
@@ -28,14 +27,14 @@ branches:
         dismiss_stale_reviews: true
         require_code_owner_reviews: true
         dismissal_restrictions:
-          users: [ ]
-          teams: [ ]
+          users: []
+          teams: []
       required_status_checks:
         strict: true
-        contexts: [ ]
+        contexts: []
       enforce_admins: false
       required_linear_history: true
       restrictions:
-        apps: [ ]
-        users: [ ]
-        teams: [ ]
+        apps: []
+        users: []
+        teams: []
