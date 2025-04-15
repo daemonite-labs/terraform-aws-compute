@@ -6,7 +6,7 @@
 
 ## Checklist
 
-* [ ] My code builds correctly.
-* [ ] I have tested my changes.
+- [ ] My code builds correctly.
+- [ ] I have tested my changes.
 
 ## Additional notes
