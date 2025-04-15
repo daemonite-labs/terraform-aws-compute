@@ -64,7 +64,7 @@ resource "aws_security_group" "bastion" {
   }
 
   egress {
-    cidr_blocks = ["0.0.0.0/0"]
+    cidr_blocks = [data.aws_vpc.this.cidr_block]
     description = "Allow ALL egress trafic"
     from_port   = 0
     to_port     = 0
