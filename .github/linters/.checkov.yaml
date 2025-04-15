@@ -1,3 +1,4 @@
 ---
-skip-check: 
+quiet: true
+skip-check:
   - CKV_TF_1
