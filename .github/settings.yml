@@ -3,7 +3,7 @@ repository:
   name: terraform-aws-compute
   description: Terraform module to create AWS compute resources
   homepage: https://github.com/daemonite-labs/terraform-aws-compute
-  topics: terraform-aws-compute
+  topics: terraform, terraform-module, terraform-aws-compute
   private: false
   has_issues: true
   has_projects: false
